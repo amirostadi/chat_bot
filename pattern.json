@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["good, you?", "How are you", "how r u?", "fine, yourself?", "how is things","great, what about you?"],
+         "responses": ["Fine, thanks for asking", "very well", "Not too bad"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting with you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "cheers"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""," "],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["How you can help me?", "What you can do?", "What help you provide?", "I need help", "What support is offered?"],
+         "responses": ["I can guide you through your school events, deadlines and weather condition", "Offering assistance for academy calendar and your school events, Also can tell you how’s the weather like in certain date"],
+         "context": ["Searching for School"]
+        },
+        {"tag": "weather",
+         "patterns": ["Hows weather like? ", "What is the forecast?", "Is the weather fine?", "Is it rainy then?", "Do you know about weather forecast?" ],
+         "responses": ["It is over cast, better to have some warm jacket ", "It is supposed to be sunny! But you never know. It is Melbourne, you know" , " I is partly cloudy"],
+         "context": [""]
+        },
+        {"tag": "Next_Event",
+         "patterns": ["When is the next event", "When is the closest meeting", "which day is next event", "I want to know about the closest gathering", "scheduled events " ],
+         "responses": ["Oh let me see","Let me check"],
+         "context": [""]
+        },
+        {"tag": "Exam",
+         "patterns": ["When is the test", "when is the exam", "which date is the final exam", "Test day", "Is there any exam" ],
+         "responses": ["Good question let me check again","hmmm let me have a look"],
+         "context": ["search for topic"]
+        },
+        {"tag": "deadline",
+         "patterns": ["when is the submission deadline?","when is the last day for submitting my assignment", "when is the latest date for assignment submission","when is the deadline","which day is the deadline"],
+         "responses": ["It is not so far but let me check again"],
+         "context": [""]
+        },
+        {"tag": "Lecture",
+         "patterns": ["When is the next lecture", "when is the class", "what time is the lecture", "scheduled lecture" ],
+         "responses": ["I can look up for you"],
+         "context": ["Topic_search"]
+        }
+   ]
+}
